@@ -65,29 +65,29 @@
 
             <TextView
                 android:id="@+id/textView22"
-                android:layout_width="396dp"
-                android:layout_height="129dp"
+                android:layout_width="364dp"
+                android:layout_height="127dp"
                 android:layout_marginTop="440dp"
                 android:text="В этой области методы искусственного интеллекта применяются, в частности, для решения проблемы ошибок в дозировке лекарств. И результаты показали, что искусственный интеллект может назначать дозировки более точно, чем терапевты, повышая эффективность лечения и попутно экономя значительные суммы для клиник."
                 app:layout_constraintBottom_toTopOf="@+id/textView23"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintHorizontal_bias="0.457"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="1.0" />
 
             <TextView
                 android:id="@+id/textView23"
-                android:layout_width="401dp"
-                android:layout_height="268dp"
+                android:layout_width="367dp"
+                android:layout_height="311dp"
                 android:layout_marginTop="564dp"
                 android:text="Так, один из подходов, называемый параболическим персонализированным дозированием (PPD), основан на алгебраических уравнениях для связи фенотипа с концентрацией препарата (в исследовании рассматривались иммунодепрессанты). Путем исследования реакций пациента во время курса лечения по выведенному уравнению создается двумерная парабола, указывающая на следующую дозу, которую должен получить пациент. Подход PPD был протестирован на четырех пациентах, а затем его сравнили со стандартными методами терапии, когда лекарства назначались по рекомендации врача. Пациенты, лечение которых осуществлялось по PPD, выходили за пределы минимально необходимых дозировок реже и в течение более коротких периодов времени, чем контрольная группа под руководством терапевта, что позволяет предположить, что уравнение точнее предсказывает следующие дозы."
                 app:layout_constraintBottom_toTopOf="@+id/textView24"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.45"
+                app:layout_constraintHorizontal_bias="0.515"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="0.066" />
 
             <TextView
                 android:id="@+id/textView24"
@@ -112,19 +112,20 @@
                 android:scaleType="centerCrop"
                 app:layout_constraintBottom_toTopOf="@+id/textView25"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintVertical_bias="1.0"
                 app:srcCompat="@drawable/image_16" />
 
             <TextView
                 android:id="@+id/textView25"
-                android:layout_width="404dp"
-                android:layout_height="217dp"
-                android:layout_marginTop="1168dp"
+                android:layout_width="363dp"
+                android:layout_height="251dp"
+                android:layout_marginTop="1156dp"
                 android:text="Системы ИИ уже нашли широкое применение и в этой сфере. Например, компания Wellframe предоставляет мобильное ПО Medicare, разработанное специально для сиделок и медсестер. Ряд клинических модулей, разработанных на основе доказательной медицины, позволяет специалистам по уходу за пациентами находить индивидуальный подход к каждому. При этом приложение существенно облегчает жизнь не только сиделкам, но и не выходящим из дома пациентам, которые могут пользоваться им самостоятельно. В функции Medicare входят напоминания о приеме лекарств, возможность оперативных консультаций с различными специалистами, подбор полезной медицинской литературы и многое другое."
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.555"
+                app:layout_constraintHorizontal_bias="0.578"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -160,8 +161,8 @@
 
             <TextView
                 android:id="@+id/textView27"
-                android:layout_width="396dp"
-                android:layout_height="290dp"
+                android:layout_width="356dp"
+                android:layout_height="310dp"
                 android:gravity="center"
                 android:text="Цифровые решения на базе искусственного интеллекта полезны для медицины не меньше роботов. Алгоритмы научились анализировать медицинские изображения и выявлять по ним заболевания — от плоскостопия до инсульта. На этом поле ИИ проявил себя ещё в период пандемии, когда с его помощью врачи прогнозировали ход болезни у пациентов с COVID-19. Сегодня ИИ анализирует МРТ мозга, КТ брюшной полости, маммограммы и рентгенограммы, снимки зубов и глазного дна. Основные преимущества таких разработок — скорость и точность. Они оптимизируют работу докторов, снижают вероятность ошибки и сокращают время получения результатов, что может спасти не одну жизнь."
                 android:textAlignment="viewStart"

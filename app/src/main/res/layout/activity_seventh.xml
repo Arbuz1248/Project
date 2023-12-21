@@ -34,8 +34,8 @@
 
             <TextView
                 android:id="@+id/textView36"
-                android:layout_width="389dp"
-                android:layout_height="154dp"
+                android:layout_width="350dp"
+                android:layout_height="197dp"
                 android:layout_marginBottom="16dp"
                 android:text="В целом, будущее цифровых технологий в медицине обещает улучшение качества и доступности медицинской помощи, оптимизацию процессов и повышение эффективности лечения. Однако, вместе с этим, необходимо учитывать и решать проблемы, связанные с конфиденциальностью данных, этическими вопросами и обучением медицинского персонала для работы с новыми технологиями."
                 android:textSize="15sp"
@@ -47,8 +47,8 @@
 
             <TextView
                 android:id="@+id/textView35"
-                android:layout_width="386dp"
-                android:layout_height="152dp"
+                android:layout_width="354dp"
+                android:layout_height="203dp"
                 android:text="С развитием цифровых технологий и электронных медицинских записей, накапливается все больше данных о пациентах и их здоровье. Анализ этих больших данных может помочь выявить паттерны и тренды в заболеваниях, оптимизировать лечение и предсказать результаты. Также аналитика данных может использоваться для улучшения управления медицинскими учреждениями и ресурсами."
                 android:textSize="15sp"
                 app:layout_constraintBottom_toTopOf="@+id/textView36"
@@ -72,8 +72,8 @@
 
             <TextView
                 android:id="@+id/textView33"
-                android:layout_width="413dp"
-                android:layout_height="154dp"
+                android:layout_width="364dp"
+                android:layout_height="181dp"
                 android:layout_marginBottom="28dp"
                 android:text="Виртуальная реальность (VR) и дополненная реальность (AR) могут быть использованы в медицине для обучения медицинского персонала, симуляции операций и процедур, а также для улучшения опыта пациентов. С помощью VR и AR можно создавать трехмерные модели органов и тканей, что помогает врачам лучше понимать анатомию и планировать операции. Также эти технологии могут использоваться для управления болевыми ощущениями и стрессом у пациентов."
                 app:layout_constraintBottom_toTopOf="@+id/textView34"
@@ -112,8 +112,8 @@
 
             <TextView
                 android:id="@+id/textView31"
-                android:layout_width="405dp"
-                android:layout_height="201dp"
+                android:layout_width="373dp"
+                android:layout_height="235dp"
                 android:layout_marginBottom="24dp"
                 android:text="Искусственный интеллект (ИИ) и машинное обучение (МО) имеют огромный потенциал для улучшения диагностики и лечения различных заболеваний. С помощью ИИ и МО можно разрабатывать алгоритмы, которые могут анализировать медицинские данные и предсказывать вероятность развития определенных заболеваний, оптимизировать лечение и прогнозировать результаты. Это позволит врачам принимать более точные и информированные решения, а также улучшит пациентам доступ к индивидуализированной медицинской помощи."
                 android:textSize="15sp"
@@ -125,8 +125,8 @@
 
             <TextView
                 android:id="@+id/textView29"
-                android:layout_width="376dp"
-                android:layout_height="84dp"
+                android:layout_width="362dp"
+                android:layout_height="100dp"
                 android:layout_marginBottom="20dp"
                 android:text="Цифровые технологии играют все более важную роль в медицине и будущее их развития обещает множество новых возможностей и преимуществ.Вот некоторые из направлений, в которых можно ожидать развития цифровых технологий в медицине:"
                 app:layout_constraintBottom_toTopOf="@+id/textView30"
