@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3BBFD"
+    tools:context=".SixActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!-- Здесь размещается ваш существующий код с ConstraintLayout -->
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="305dp"
+                android:layout_height="42dp"
+                android:text="Примеры успешного применения цифровых технологий в медицине"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView21"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.457" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="355dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="24dp"
+                android:text="Терапевтические назначения и лечение отдельных заболеваний"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView40"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.964" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="479dp"
+                android:layout_height="261dp"
+                android:layout_marginTop="160dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/textView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/image_15" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="396dp"
+                android:layout_height="129dp"
+                android:layout_marginTop="440dp"
+                android:text="В этой области методы искусственного интеллекта применяются, в частности, для решения проблемы ошибок в дозировке лекарств. И результаты показали, что искусственный интеллект может назначать дозировки более точно, чем терапевты, повышая эффективность лечения и попутно экономя значительные суммы для клиник."
+                app:layout_constraintBottom_toTopOf="@+id/textView23"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="401dp"
+                android:layout_height="268dp"
+                android:layout_marginTop="564dp"
+                android:text="Так, один из подходов, называемый параболическим персонализированным дозированием (PPD), основан на алгебраических уравнениях для связи фенотипа с концентрацией препарата (в исследовании рассматривались иммунодепрессанты). Путем исследования реакций пациента во время курса лечения по выведенному уравнению создается двумерная парабола, указывающая на следующую дозу, которую должен получить пациент. Подход PPD был протестирован на четырех пациентах, а затем его сравнили со стандартными методами терапии, когда лекарства назначались по рекомендации врача. Пациенты, лечение которых осуществлялось по PPD, выходили за пределы минимально необходимых дозировок реже и в течение более коротких периодов времени, чем контрольная группа под руководством терапевта, что позволяет предположить, что уравнение точнее предсказывает следующие дозы."
+                app:layout_constraintBottom_toTopOf="@+id/textView24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.45"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="860dp"
+                android:text="Уход за пациентами"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView41"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="480dp"
+                android:layout_height="253dp"
+                android:layout_marginTop="904dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/textView25"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/image_16" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="404dp"
+                android:layout_height="217dp"
+                android:layout_marginTop="1168dp"
+                android:text="Системы ИИ уже нашли широкое применение и в этой сфере. Например, компания Wellframe предоставляет мобильное ПО Medicare, разработанное специально для сиделок и медсестер. Ряд клинических модулей, разработанных на основе доказательной медицины, позволяет специалистам по уходу за пациентами находить индивидуальный подход к каждому. При этом приложение существенно облегчает жизнь не только сиделкам, но и не выходящим из дома пациентам, которые могут пользоваться им самостоятельно. В функции Medicare входят напоминания о приеме лекарств, возможность оперативных консультаций с различными специалистами, подбор полезной медицинской литературы и многое другое."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.555"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1400dp"
+                android:text="Диагностика заболеваний"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView42"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.137" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="484dp"
+                android:layout_height="195dp"
+                android:layout_marginTop="1452dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/textView27"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/image_20" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="396dp"
+                android:layout_height="290dp"
+                android:gravity="center"
+                android:text="Цифровые решения на базе искусственного интеллекта полезны для медицины не меньше роботов. Алгоритмы научились анализировать медицинские изображения и выявлять по ним заболевания — от плоскостопия до инсульта. На этом поле ИИ проявил себя ещё в период пандемии, когда с его помощью врачи прогнозировали ход болезни у пациентов с COVID-19. Сегодня ИИ анализирует МРТ мозга, КТ брюшной полости, маммограммы и рентгенограммы, снимки зубов и глазного дна. Основные преимущества таких разработок — скорость и точность. Они оптимизируют работу докторов, снижают вероятность ошибки и сокращают время получения результатов, что может спасти не одну жизнь."
+                android:textAlignment="viewStart"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/button8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.967" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="426dp"
+                android:layout_height="58dp"
+                android:background="@drawable/outbutton"
+                android:text="Вернуться"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

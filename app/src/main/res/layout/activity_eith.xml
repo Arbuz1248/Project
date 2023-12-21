@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFCFC"
+    tools:context=".EithActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <!-- Здесь размещается ваш существующий код с ConstraintLayout -->
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="390dp"
+                android:layout_height="68dp"
+                android:text="Влияние медицинских цифровых технологий на улучшение качества медицинской помощи"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView38"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="386dp"
+                android:layout_height="109dp"
+                android:layout_marginTop="120dp"
+                android:text="Эксперт ЦНИИОИЗ сделал обзор крупнейшего в мире мета-анализа влияния цифровых технологий на работу медработников. В журнале The Lancet Digital Health были опубликованы результаты глобального мета-анализа, посвященного оценке влияния цифровых технологий здравоохранения на медицинских работников"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView39"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.419"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="391dp"
+                android:layout_height="256dp"
+                android:layout_marginTop="244dp"
+                android:text="Опубликованный анализ выполнен по самым строгим правилам доказательной медицины, включая Кохрановские рекомендации (Cochrane Handbook), PRISMA, рекомендации по качеству мета-анализов (the Quality of Reporting of Meta-analyses document) и т.д. Материалом для работы стали 132 первичных систематических обзора, отобранных из более чем 12 тыс. исследований, посвященных изучению эффективности цифровых технологий, ведущими из которых являются телемедицина (34,8% исследований), мобильные медицинские технологии (25,7%), электронные медицинские карты (17,4%), системы поддержки принятия врачебных решений (15,2%) и искусственный интеллект (6%)."
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView40"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="393dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="520dp"
+                android:text="В результате проведенного исследования удалось доказать, что в целом внедрение различных цифровых инструментов позволяет получить следующие эффекты:"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView41"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="369dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="556dp"
+                android:text="1. Повышение точности и эффективности процессов принятия решений в реальной клинической практике;
+                      \n2. Сокращение времени, необходимого для выполнения задач;
+                     \n 3. Повышение производительности труда медицинских работников;
+                     \n 4. Более быстрый и надежный доступ к данным в режиме реального времени;
+                      \n 5. Улучшение получения знаний и компетенций медработников;
+                      \n 6. Улучшение качества и своевременности формирования различной отчетности."
+                app:layout_constraintBottom_toTopOf="@+id/textView42"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.375"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.76" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="796dp"
+                android:text="Внедрение телемедицины и удаленного мониторинга"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView43"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.473"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.375" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="385dp"
+                android:layout_height="204dp"
+                android:layout_marginTop="844dp"
+                android:text="приводит к улучшению качества оказания медицинской помощи, повышает удовлетворенность медицинских работников, позволяет ускорить выявление клинически-значимых проблем со здоровьем пациентов и в некоторой степени сократить неэффективные затраты на базовую медицинскую помощь.Эти технологии также способствует карьерному росту и получению новых знаний, улучшают найм медработников. Вместе с этим телемедицина определенно увеличивает нагрузку на медработников и повышает их эмоциональное выгорание."
+                app:layout_constraintBottom_toTopOf="@+id/textView44"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.531"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1064dp"
+                android:text="Внедрение мобильных медицинских технологий"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView45"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.055" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="376dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="1108dp"
+                android:text="позволяет усилить профессиональные коммуникации между медработниками, улучшить обмен информацией и знаниями, а также улучшить отношения внутри медицинского коллектива."
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView46"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.39"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1228dp"
+                android:text="Внедрение электронных медицинских карт (ЭМК)"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView47"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.281" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="388dp"
+                android:layout_height="166dp"
+                android:layout_marginTop="1284dp"
+                android:text="положительно влияет на организацию медицинской помощи, улучшает и ускоряет сбор и анализ данных, сокращает количество ошибок в медицинской документации, повышает качество медицинских данных, сокращает когнитивную нагрузку на медперсонал. В итоге это улучшает коммуникацию и скоординированность между медицинскими работниками. Вместе с этим внедрение ЭМК приводит к увеличению времени на документирование и создает проблему удобства интерфейсов ЭМК."
+                app:layout_constraintBottom_toTopOf="@+id/textView48"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.551"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1476dp"
+                android:text="Внедрение технологий искусственного интеллекта (ИИ)"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView49"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.541"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.2" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="391dp"
+                android:layout_height="161dp"
+                android:layout_marginTop="1524dp"
+                android:layout_marginBottom="20dp"
+                android:text="позволяет улучшить качество оказания медицинской помощи за счет улучшения контроля и профилактики заболеваний, автоматизированного анализа данных, сокращения нагрузки на медработников и улучшения профессионального общения. Наиболее перспективными направлениями применения ИИ являются цифровое фенотипирование (digital phenotyping), чат-боты, обработка естественного языка (NLP) и прогнозная аналитика."
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/button10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.615"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.132" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="415dp"
+                android:layout_height="79dp"
+                android:background="@drawable/outbutton"
+                android:text="Вернуться"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

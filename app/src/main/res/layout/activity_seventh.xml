@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SeventhActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Здесь размещается ваш существующий код с ConstraintLayout -->
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="433dp"
+                android:layout_height="67dp"
+                android:background="@drawable/outbutton"
+                android:text="Вернуться"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="389dp"
+                android:layout_height="154dp"
+                android:layout_marginBottom="16dp"
+                android:text="В целом, будущее цифровых технологий в медицине обещает улучшение качества и доступности медицинской помощи, оптимизацию процессов и повышение эффективности лечения. Однако, вместе с этим, необходимо учитывать и решать проблемы, связанные с конфиденциальностью данных, этическими вопросами и обучением медицинского персонала для работы с новыми технологиями."
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/button9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.996" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="386dp"
+                android:layout_height="152dp"
+                android:text="С развитием цифровых технологий и электронных медицинских записей, накапливается все больше данных о пациентах и их здоровье. Анализ этих больших данных может помочь выявить паттерны и тренды в заболеваниях, оптимизировать лечение и предсказать результаты. Также аналитика данных может использоваться для улучшения управления медицинскими учреждениями и ресурсами."
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView36"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.976" />
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="443dp"
+                android:layout_height="238dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/textView35"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.991"
+                app:srcCompat="@drawable/image_19" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="413dp"
+                android:layout_height="154dp"
+                android:layout_marginBottom="28dp"
+                android:text="Виртуальная реальность (VR) и дополненная реальность (AR) могут быть использованы в медицине для обучения медицинского персонала, симуляции операций и процедур, а также для улучшения опыта пациентов. С помощью VR и AR можно создавать трехмерные модели органов и тканей, что помогает врачам лучше понимать анатомию и планировать операции. Также эти технологии могут использоваться для управления болевыми ощущениями и стрессом у пациентов."
+                app:layout_constraintBottom_toTopOf="@+id/textView34"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView28"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="435dp"
+                android:layout_height="248dp"
+                android:layout_marginBottom="32dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/textView31"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/image_17_container" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="443dp"
+                android:layout_height="231dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/textView33"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.512"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/scrollView3"
+                app:layout_constraintVertical_bias="0.986"
+                app:srcCompat="@drawable/image_18" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="405dp"
+                android:layout_height="201dp"
+                android:layout_marginBottom="24dp"
+                android:text="Искусственный интеллект (ИИ) и машинное обучение (МО) имеют огромный потенциал для улучшения диагностики и лечения различных заболеваний. С помощью ИИ и МО можно разрабатывать алгоритмы, которые могут анализировать медицинские данные и предсказывать вероятность развития определенных заболеваний, оптимизировать лечение и прогнозировать результаты. Это позволит врачам принимать более точные и информированные решения, а также улучшит пациентам доступ к индивидуализированной медицинской помощи."
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView32"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/scrollView3"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="376dp"
+                android:layout_height="84dp"
+                android:layout_marginBottom="20dp"
+                android:text="Цифровые технологии играют все более важную роль в медицине и будущее их развития обещает множество новых возможностей и преимуществ.Вот некоторые из направлений, в которых можно ожидать развития цифровых технологий в медицине:"
+                app:layout_constraintBottom_toTopOf="@+id/textView30"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28"
+                app:layout_constraintVertical_bias="0.591" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Большие данные и аналитика"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView44"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.96" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Виртуальная и дополненная реальность"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView43"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.965" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Искусственный интеллект и машинное обучение"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView39"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/scrollView3"
+                app:layout_constraintVertical_bias="0.962" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Тенденции развития цифровых медицинских технологий"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/scrollView3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
